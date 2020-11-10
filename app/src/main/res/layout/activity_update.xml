@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/linearback">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:paddingLeft="30dp"
+            android:text="Personal Informations"
+
+            android:textColor="#181818"
+            android:textSize="24dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:elevation="20dp">
+
+
+            <EditText
+                android:id="@+id/add1"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="Enseigne"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/add2"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="siret"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/add3"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="code naf"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/add4"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="numero tva"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/add5"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="telephone"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:paddingLeft="30dp"
+            android:text="Location"
+
+            android:textColor="#181818"
+            android:textSize="24dp"></TextView>
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:elevation="20dp">
+
+
+            <EditText
+                android:id="@+id/add6"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="Adresse"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/add7"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="Zip"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/add8"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="ville"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/add9"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="Pays"
+                android:inputType="textPersonName" /></LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:paddingLeft="30dp"
+            android:text="Others"
+
+            android:textColor="#181818"
+            android:textSize="24dp"></TextView>
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            android:elevation="20dp">
+
+            <EditText
+                android:id="@+id/add10"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="Nombres postes"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/add11"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="duree Utilisation"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/add12"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="email"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/add13"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/add14"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="etat"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/add15"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="site"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/add16"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:fontFamily="@font/lato_italic"
+                android:hint="exercice"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/confirmer"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Confirmer"
+            app:cornerRadius="20dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

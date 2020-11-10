@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backlogin">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="259dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lato_bold"
+        android:paddingLeft="40dp"
+        android:text="Welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="normal"
+
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_light"
+        android:paddingLeft="40dp"
+        android:text="You have to login so u can use this app"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="normal"></TextView>
+
+    <EditText
+        android:id="@+id/log"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/ic_user"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/lato"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="#ebf1fa"
+        android:textColorHint="#ebf1fa" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/lato"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#ebf1fa"
+        android:textColorHint="#ebf1fa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:clickable="true"
+        android:fontFamily="@font/lato_light"
+        android:text="Forgot ur password ?"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        android:textStyle="normal"></TextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/lato_bold"
+        android:text="Login"
+        android:textColor="#1e3c72"
+        app:cornerRadius="20dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:fontFamily="@font/lato_light"
+            android:text="You don't have an account ?"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp"
+            android:textStyle="normal"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:fontFamily="@font/lato_light"
+            android:text=" Registre"
+            android:textColor="#FFFFFF"
+            android:textSize="12dp"
+            android:textStyle="normal"></TextView>
+</LinearLayout>
+
+</LinearLayout>
